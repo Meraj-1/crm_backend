@@ -1,0 +1,95 @@
+export enum UserRole {
+  OWNER = 'OWNER',
+  ADMIN = 'ADMIN',
+  MANAGER = 'MANAGER',
+  SALES_REP = 'SALES_REP'
+}
+
+export enum PlanTier {
+  FREE = 'FREE',
+  STARTER = 'STARTER',
+  PRO = 'PRO',
+  ENTERPRISE = 'ENTERPRISE'
+}
+
+export enum LeadStatus {
+  NEW = 'NEW',
+  CONTACTED = 'CONTACTED',
+  QUALIFIED = 'QUALIFIED',
+  PROPOSAL_SENT = 'PROPOSAL_SENT',
+  WON = 'WON',
+  LOST = 'LOST',
+  JUNK = 'JUNK'
+}
+
+export enum LeadSource {
+  WEBSITE = 'WEBSITE',
+  META_ADS = 'META_ADS',
+  GOOGLE_ADS = 'GOOGLE_ADS',
+  LINKEDIN = 'LINKEDIN',
+  REFERRAL = 'REFERRAL',
+  COLD_OUTREACH = 'COLD_OUTREACH',
+  WHATSAPP = 'WHATSAPP',
+  OTHER = 'OTHER'
+}
+
+export enum Priority {
+  LOW = 'LOW',
+  MEDIUM = 'MEDIUM',
+  HIGH = 'HIGH',
+  URGENT = 'URGENT'
+}
+
+export enum ActivityType {
+  CALL = 'CALL',
+  EMAIL = 'EMAIL',
+  MEETING = 'MEETING',
+  NOTE = 'NOTE',
+  WHATSAPP = 'WHATSAPP',
+  STAGE_CHANGE = 'STAGE_CHANGE',
+  TASK_DONE = 'TASK_DONE',
+  LEAD_CREATED = 'LEAD_CREATED',
+  DEAL_CREATED = 'DEAL_CREATED'
+}
+
+export enum EntityType {
+  LEAD = 'LEAD',
+  DEAL = 'DEAL',
+  CONTACT = 'CONTACT',
+  COMPANY = 'COMPANY'
+}
+
+export enum TaskStatus {
+  TODO = 'TODO',
+  IN_PROGRESS = 'IN_PROGRESS',
+  COMPLETED = 'COMPLETED',
+  CANCELLED = 'CANCELLED'
+}
+
+export enum TriggerType {
+  LEAD_CREATED = 'LEAD_CREATED',
+  LEAD_STATUS_CHANGED = 'LEAD_STATUS_CHANGED',
+  DEAL_STAGE_CHANGED = 'DEAL_STAGE_CHANGED',
+  DEAL_WON = 'DEAL_WON',
+  HIGH_VALUE_DEAL = 'HIGH_VALUE_DEAL'
+}
+
+export enum ActionType {
+  SEND_EMAIL = 'SEND_EMAIL',
+  SEND_WHATSAPP = 'SEND_WHATSAPP',
+  CREATE_TASK = 'CREATE_TASK',
+  ASSIGN_USER = 'ASSIGN_USER',
+  NOTIFY_TEAM = 'NOTIFY_TEAM'
+}
+
+export enum CommunicationChannel {
+  EMAIL = 'EMAIL',
+  SMS = 'SMS',
+  WHATSAPP = 'WHATSAPP',
+  CALL = 'CALL'
+}
+
+export enum CommunicationDirection {
+  INBOUND = 'INBOUND',
+  OUTBOUND = 'OUTBOUND'
+}
